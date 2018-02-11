@@ -1,0 +1,15 @@
+_________________________________________________________________
+Error output for test.mal
+_________________________________________________________________
+0label:
+1    run     r1, r2, r3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total errors - 
+ Invalid Opcode 
+ Too few Operands 
+ Too many operands 
+ Ill-formed Operand 
+ Wrong operand type 
+ Label Warnings 
+Mal error checker Complete ---- Mal program is 

@@ -1,0 +1,23 @@
+_________________________________________________________________
+Error output for one.mal
+_________________________________________________________________
+0          MOVEI     0, R0
+1          MOVEI     1, R1
+2          MOVEI     12, R2
+3  TOP:
+4          BGT       R1, R2, CONT
+5          ADD       R0, R1, R0
+6          INC       R1
+7          BR        TOP
+8  CONT:   MOVE      R0, TOTAL
+9          END
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Total errors - 
+ Invalid Opcode 
+ Too few Operands 
+ Too many operands 
+ Ill-formed Operand 
+ Wrong operand type 
+ Label Warnings 
+Mal error checker Complete ---- Mal program is 
